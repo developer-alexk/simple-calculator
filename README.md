@@ -1,1 +1,1 @@
-# pro
+# simple-calculator
