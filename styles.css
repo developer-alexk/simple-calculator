@@ -1,0 +1,70 @@
+ /* common styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222831;
+  font-family: sans-serif;
+}
+
+/* common styles end */
+
+/* calculator */
+.calculator {
+  width: 300px;
+  padding-bottom: 25px;
+  border-radius: 7px;
+  background-color: #000;
+  box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
+}
+
+/* the display the simple calulator*/
+.display {
+  width: 100%;
+  height:125px;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #cbcbd8;
+  color: #000;
+  text-align: right;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+/* styling rows row */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*styling the button */
+button {
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: rgb(72, 151, 102);
+  color: #fff;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* operators */
+.operator {
+  background-color: #32127c;
+  color: rgb(231, 12, 41);
+}
